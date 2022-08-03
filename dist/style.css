@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-size: 30px;
+    background-color: #FF5C5C;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row{
+    margin: 0 -5px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    padding: 16px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #FDAB9F;
+}
+
+.card h3{
+    text-shadow: 3px 3px #0072BB;
+    color: white;
+}
